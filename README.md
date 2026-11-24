@@ -1,6 +1,6 @@
-# Entropia
+# PGL/1
 
-**Entropia is code for a surround-sound virtual synthesizer project. Thje project is finished, and it is unlikely to be updated further.**
+**PGL/1 is code for a surround-sound virtual synthesizer project. Thje project is finished, and it is unlikely to be updated further.**
 
 Written in SuperCollider, it combines four electronic sound generators, control-rate modulators, sequenced streams, MIDI control, and spatialization for VBAP or Ambisonic speaker layouts. The main application provides a control surface for routing, envelopes, effects, output, and live parameter changes.
 
@@ -15,9 +15,9 @@ Written in SuperCollider, it combines four electronic sound generators, control-
 
 - SuperCollider
 - Speaker output matching one of the included VBAP or Ambisonic configurations
-- A MIDI controller for the controller mappings in `entropia.scd` (optional)
+- A MIDI controller for the controller mappings in `pgl_1_gui.scd` (optional)
 
-Open `entropia.scd` in the SuperCollider IDE and evaluate it. Review `settings.conf` and update the SynthDef and output paths for your local installation before use.
+Open `pgl_1_gui.scd` in the SuperCollider IDE and evaluate it. Review `settings.conf` and update the SynthDef and output paths for your local installation before use.
 
 ## License
 
