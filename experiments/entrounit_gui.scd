@@ -1,3 +1,8 @@
+// This is to be used with EntroUnit from the Entropia extension. It is a test
+// for the EntroUnit class, which is a wrapper for SynthDef and Synth in
+// SuperCollider. It allows to create and control synths with parameters and
+// mappings.
+
 // test kr unit deactivate
 n = EntroUnit.new(\sr__e__pulse, 20, 0)
 n.activate([\amp, 0.5, \velocity, 0.5, \distance, 0.2])
